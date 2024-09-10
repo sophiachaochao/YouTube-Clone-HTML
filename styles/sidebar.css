@@ -1,0 +1,82 @@
+@media (min-width: 1312px) {
+  .sidebar{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 55px;
+    width: 200px;
+    text-align: center;
+    padding-top: 3px;
+    background-color: white;
+    z-index: 200;
+  }
+
+  .sidebar-icons{
+    margin-top: 5px;
+    border:none;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:baseline;
+    padding-left: 20px;
+    align-items: center;
+  }
+  .sidebar-icons:hover{
+    background-color: rgb(235, 235, 235);
+  }
+
+  .home-icon{
+    padding-left: 5px;
+    width: 25px;
+    height: 25px;
+    border: none;
+  }
+  .sidebar-icon-word{
+    font-size: 13px;
+    white-space: nowrap;
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 1311px) {
+  .sidebar{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 55px;
+    width: 75px;
+    text-align: center;
+    padding-top: 3px;
+    background-color: white;
+    z-index: 200;
+  }
+
+  .sidebar-icons{
+    border:none;
+    background-color: white;
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sidebar-icons:hover{
+    background-color: rgb(235, 235, 235);
+  }
+
+  .home-icon{
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin-bottom: 3px;
+  }
+  .sidebar-icon-word{
+    font-size: 9px;
+    white-space: nowrap;
+  }
+}
